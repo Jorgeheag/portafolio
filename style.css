@@ -1,0 +1,897 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: rgba(0, 0, 17);
+    color: rgba(252, 251, 251, 0.953); 
+}
+
+/*nav{
+    width: auto;
+    height: 3rem;
+    margin: 0%;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 1rem;
+}
+
+nav > ul > li{
+    display: inline-block;
+    font-size: 2vh;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    padding: 1rem;
+    border-bottom: 4px solid transparent;
+}
+nav > ul > li > a:hover{
+
+    border-color: aqua;
+    transition: all .5s linear;
+
+}
+.home{
+    font-weight: bold;
+    color: rgb(52, 176, 190);
+}*/
+
+/**.navegador-inicio{
+    
+    width: auto;
+    height: 3rem;
+    margin: 0%;
+    display: flex;
+    justify-content:flex-end;
+    display:n ;
+}
+
+.navegador-botones{
+    margin: 3vh;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+
+.navegador-botones:hover{
+    color: aqua;
+    
+}
+
+*/
+
+.section-s1{
+    z-index: 2;
+    font-size: 20px;
+    padding-left: 7%;
+    
+}
+
+.section-s2{
+    z-index: 2;
+    margin-top: 5vh;
+    padding-right: 7%;
+  
+   
+    font-size: xx-large;
+    
+   
+}
+
+.section-s1> h3 {
+    font-size: 8rem;
+    
+}
+
+#prt-sp{
+    font-size: 5rem;
+    border-bottom: 5px solid white;
+}
+
+.presentacion{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    padding-bottom: 8rem;
+
+
+}
+
+.tigre{
+    position: absolute;
+    background-color: rgba(143 150 150 / 37%);;
+    padding:4rem;
+    border-radius: 30vh;
+    left: 40vh;
+    
+    
+
+    
+
+}
+
+.redesSociales{
+    display: flex;
+}
+
+.redesSociales>img{
+    display: flex;
+    background-color: azure;
+    justify-content: space-around;
+    border-radius: 3vh;
+    padding: 9px;
+}
+
+
+.tiendas{
+    display: flex;
+    justify-content: center;
+    margin-left: 8vh;
+    margin-top: -3vh;
+}
+
+.conten-t{
+    display: flex;
+    justify-content:space-around ;
+    background-color: rgba(143 150 150 / 37%);
+    width: 150vh;
+    border-radius: 2vh;
+}
+
+.conten-t img{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 2vh;
+    background-color: rgb(85, 84, 84);
+    margin: 5vh;
+    padding: 3vh;
+
+}
+
+
+
+
+.redesSociales{
+    height: 50px;
+    width: 50px;
+    display: flex;   
+}
+
+.infoP{
+    text-align: center;
+    bottom: unset;
+    padding-top:13vh ;
+    font-size: xx-large;
+}
+
+.acer-1{
+    padding: 8vh;
+    justify-content: center;
+    font-size: 34px;
+}
+
+.serv{
+    text-align: center;
+    bottom: unset;
+    padding-top: 9vh;
+    font-size: xx-large;
+}
+
+.servicios{
+
+    display: flex;
+    justify-content: space-around;
+    margin-left: 222px;
+    padding: 41px;
+}
+.desing{
+    background-image: url(Ellipse\ 14.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 220px;
+    width: 30vh; 
+    border-radius: 5px; 
+}
+
+.Habilidades{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 12px;
+    padding: 41px;
+    font-size: xx-large;
+
+}
+
+div > meter{
+
+    width: 70vh;
+    height: 4vh;
+}
+.medidores{ display: flex;
+    justify-content: center;
+}
+.dess{display: flex;
+    justify-content: center;
+    color: aliceblue;
+} 
+
+.kkk{display: flex;
+    justify-content: center;
+    }
+.ggg{background-color: rgb(180, 184, 184);
+    width: 90vh;
+    height: 20px;
+    border-radius: 10px;
+
+}
+.mediii{
+    background-color: rgb(35, 161, 211);
+    width: 60vh;
+    height: 20px;
+   border-radius: 10px;
+}.kkk{display: flex;
+    justify-content: center;
+    }
+.ggg{background-color: rgb(180, 184, 184);
+    width: 90vh;
+    height: 20px;
+    border-radius: 10px;
+
+}
+.mediii{
+    background-color: rgb(35, 161, 211);
+    width: 60vh;
+    height: 20px;
+   border-radius: 10px;
+}.kkk{display: flex;
+    justify-content: center;
+    }
+.ggg{background-color: rgb(180, 184, 184);
+    width: 90vh;
+    height: 20px;
+    border-radius: 10px;
+
+}
+.mediii{
+    background-color: rgb(35, 161, 211);
+    width: 60vh;
+    height: 20px;
+   border-radius: 10px;
+}.kkk{display: flex;
+    justify-content: center;
+    }
+.ggg{background-color: rgb(180, 184, 184);
+    width: 90vh;
+    height: 20px;
+    border-radius: 10px;
+
+}
+.mediii{
+    background-color: rgb(35, 161, 211);
+    width: 60vh;
+    height: 20px;
+   border-radius: 10px;
+}.kkk{display: flex;
+    justify-content: center;
+    }
+.ggg{background-color: rgb(180, 184, 184);
+    width: 90vh;
+    height: 20px;
+    border-radius: 10px;
+
+}
+.mediii{
+    background-color: rgb(35, 161, 211);
+    width: 60vh;
+    height: 20px;
+   border-radius: 10px;
+}
+
+.Miporta{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 12px;
+    padding: 41px;
+    font-size: xx-large;
+}
+
+.contac{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 12px;
+    padding: 41px;
+    font-size: xx-large;
+}
+
+.portaf{
+    display: flex;
+    margin-left: 100px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40vh;
+    
+}
+
+.contac2{
+    background-image: url(Ellipse\ 14.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 220px;
+    width: 48vh; 
+    border-radius: 5px; 
+}
+
+.img-c{
+    width: 13vh;
+    height: 13vh;
+}
+
+.final{
+    
+    text-align: center;
+    justify-content: center;
+    color: aqua;
+}
+
+.foot{
+    margin-top: 15vh;
+    background-color:rgba(140, 141, 141, 0.219140);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        background-color: rgb(0, 255, 255);
+        
+    } 
+    .tigre{
+        position: absolute;
+        background-color: rgba(143 150 150 / 37%);;
+        padding:4rem;
+        border-radius: 30vh;
+        left: 20vh;
+    }
+    .tigre img{
+    width: 30vh;
+    }
+
+
+    
+    .section-s1{
+        z-index: 2;
+        font-size: 20px;
+        padding-left: 7%;
+        
+    }
+    
+    .section-s2{
+        z-index: 2;
+        margin-top: 5vh;
+        padding-right: 7%;
+      
+       
+        font-size: 3vh;
+        
+       
+    }
+    
+    .section-s1> h3 {
+        font-size: 8rem;
+        
+    }
+/**/
+    .tiendas{
+        display: flex;
+        justify-content: center;
+       left: 0;
+        margin: 3vh;
+    }
+    
+    .conten-t{
+       
+        display: flex;
+        justify-content:space-around ;
+        background-color: rgba(143 150 150 / 37%);
+        width: 80vh;
+        border-radius: 2vh;
+        left: -10vh;
+    }
+    
+    .conten-t img{
+        display: flex;
+        justify-content: space-around;
+        border-radius: 2vh;
+        background-color: rgb(85, 84, 84);
+        margin: 5vh;
+        padding: 3vh;
+        width: 15vh;
+    
+    }
+    .servicios{
+
+        display: flex;
+        justify-content: space-around;
+        margin-left: 0;
+        padding: 41px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    nav{
+        margin: -1vh;
+        text-align: center; 
+    
+    }
+    
+    nav > ul > li{
+    
+        display: inline-block;
+        margin: 3vh;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    
+    }
+    nav > ul > li > a{
+        text-decoration: none;
+        font-family: sans-serif;
+        color: white;
+        padding: 1rem;
+        border-bottom: 4px solid transparent;
+    }
+    nav > ul > li > a:hover{
+    
+        border-color: aqua;
+        transition: all .5s linear;
+    
+    }
+    .home{
+        font-weight: bold;
+        color: rgb(52, 176, 190);
+    }
+
+    
+    
+   /* .navegador-inicio{
+        margin: 3vh; 
+    }
+    
+    .navegador-botones{
+        margin: 3vh;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        
+    }
+    
+    .navegador-botones:hover{
+        color: aqua;
+        
+    }
+    */
+   
+    
+    .section-s1{
+        margin-left: -20%;
+        position: relative;
+        left: 20%;
+        padding-left: 4%;
+        
+    
+    }
+    
+   
+    
+    .section-s1> h3 {
+        font-size: 30px;
+        
+    }
+    
+    #prt-sp{
+        font-size: 70px;
+        border-bottom: 5px solid white;
+    }
+    
+   
+    
+    .tigre{
+        background-color: rgba(47, 48, 48, 0.374);
+    padding: 4rem;
+    border-radius: 31vh;
+    justify-content: center;
+        
+    
+    }
+    
+    .redesSociales{
+        display: flex;
+    }
+    
+    .redesSociales>img{
+        display: flex;
+        background-color: azure;
+        justify-content: space-around;
+        border-radius: 3vh;
+        padding: 9px;
+    }
+    
+    
+    .tiendas{
+        display: flex;
+        justify-content:center;
+    }
+    
+    .conten-t{
+        display: flex;
+        justify-content:space-around ;
+        background-color: rgba(47, 48, 48, 0.374);
+        width: 150vh;
+        border-radius: 2vh;
+    }
+    
+    .conten-t img{
+        display: flex;
+        justify-content: space-around;
+        border-radius: 2vh;
+        background-color: rgb(85, 84, 84);
+        margin: 5vh;
+        padding: 3vh;
+    
+    }
+    
+    .redesSociales{
+        height: 50px;
+        width: 50px;
+        display: flex;   
+    }
+    
+    .infoP{
+        text-align: center;
+        bottom: unset;
+    }
+    
+    .serv{
+        text-align: center;
+        bottom: unset;
+    }
+
+    .sec-flex{
+        display: block;
+
+    }
+    
+    .servicios{
+       
+        justify-content: space-around;
+        margin-left: 70px;
+         position: static;
+        display: flex;
+    }
+    
+    .desing{
+        background-image: url(Ellipse\ 14.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: white;
+        color: black;
+        text-align: center;
+        height: 249px;
+        width: 30vh; 
+        border-radius: 5px; 
+        justify-content: baseline;
+        
+    
+    }
+    
+    .Habilidades{
+        text-align: center;
+    
+    }
+    
+    div > meter{
+    
+        width: 70vh;
+        height: 4vh;
+    }
+    .medidores{ display: flex;
+        justify-content: center;
+    }
+    .dess{display: flex;
+        justify-content: center;
+        color: aliceblue;
+    } 
+    
+     
+    
+    .mediii{
+        background-color: rgb(35, 161, 211);
+        width: 60vh;
+        height: 20px;
+       border-radius: 10px;
+    }
+
+    .ggg{background-color: rgb(180, 184, 184);
+        width: 90vh;
+        height: 20px;
+        border-radius: 10px;
+    
+    }
+    
+    
+    .Miporta{
+        text-align: center;
+    }
+    
+    .contac{
+        text-align: center;
+    }
+    
+    .portaf{
+        display: flex;
+        margin-left: 28px;
+    }
+    
+    .content{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 40vh;
+        
+    }
+    
+    .contac2{
+        background-image: url(Ellipse\ 14.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: white;
+        color: black;
+        text-align: center;
+        height: 220px;
+        width: 55vh ;
+        border-radius: 5px; 
+    }
+    
+    .img-c{
+        width: 13vh;
+        height: 13vh;
+    }
+    
+    .final{
+        
+        text-align: center;
+        justify-content: center;
+        color: aqua;
+    }
+    
+    .foot{
+        margin-top: 15vh;
+        background-color:rgba(140, 141, 141, 0.219140);
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav{z-index: 9;
+    display: flex;
+    background-color: rgb(0, 0, 17);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    flex-direction: row-reverse;
+    padding-bottom: 1rem;
+}
+nav > ul > li{
+    
+    display: inline-block;
+    
+    font-size: 1.8vh;
+   
+}
+nav > ul > li > a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    padding: 1rem;
+    border-bottom: 4px solid transparent;
+}
+nav > ul > li > a:hover{
+    
+    border-color: aqua;
+    transition: all .5s linear;
+
+}
+.home{font-weight: bold;
+    color: rgb(52, 176, 190);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 600px){
+    .hidden{
+        display: none;
+    }}
+
+
+
+@media screen and (max-width: 600px){
+    .hidden2{
+        display: none;
+    }
+
+.icono-menu{
+    margin: 4px 5px;
+    position: relative;
+    z-index: 10;
+}
+
+.icono-menu img{
+   padding: 10px;
+    vertical-align: top;
+    width: 30px;
+    cursor: pointer;
+    background-color: rgb(52, 176, 190);
+    border-radius: 20px;
+    
+}
+
+/* Estilos para el contenedor del Menú */
+.cont-menu{
+    background-color: rgb(0, 0, 17);
+    box-shadow: 2px 0px 5px 2px rgb(66,66,66);
+    width: 400px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+    z-index: 6;
+}
+
+/* Estilos por agregar en JavaScript */
+.active{
+    transform: translate(-600px);
+}
+
+/* Estilos para el listado del Menú */
+.cont-menu ul{
+    padding: 100px 0px 20px 0px;
+    list-style: none;
+}
+
+.cont-menu ul li a{
+    color: white;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+
+.cont-menu ul li a:hover{
+    background-color: rgb(52, 176, 190);
+    color: rgb(0, 0, 0);
+}
+nav{z-index: 9;
+    display: flex;
+    background-color: rgb(0, 0, 17);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    flex-direction: row-reverse;
+    padding-bottom: 1rem;
+    z-index: 19;
+}
+
+}
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
