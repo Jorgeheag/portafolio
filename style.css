@@ -186,11 +186,9 @@ nav > ul > li > a:hover{
 }
 
 .servicios{
-
     display: flex;
-    justify-content: space-around;
-    margin-left: 222px;
-    padding: 41px;
+    justify-content:space-around;
+    margin-left: 13vh;
 }
 .desing{
     background-image: url(Ellipse\ 14.svg);
@@ -202,6 +200,7 @@ nav > ul > li > a:hover{
     height: 220px;
     width: 30vh; 
     border-radius: 5px; 
+    
 }
 
 .Habilidades{
@@ -224,11 +223,28 @@ div > meter{
 .dess{display: flex;
     justify-content: center;
     color: aliceblue;
-} 
+}
 
-.kkk{display: flex;
-    justify-content: center;
-    }
+
+#lenguajes{
+    display: flex;
+    justify-content:space-around;
+}
+
+#frameworks{
+    display: flex;
+    justify-content:center;
+}
+
+.f {
+    width: 30vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+.js{
+    width: 20vh;
+}
 .ggg{background-color: rgb(180, 184, 184);
     width: 90vh;
     height: 20px;
@@ -316,17 +332,15 @@ div > meter{
 
 .portaf{
     display: flex;
-    margin-left: 100px;
-    gap: 20px;
-    flex-wrap: wrap;
+    margin-left: 0vh;
+    gap: 10px;
+    flex-wrap: wrap-reverse;
     justify-content: center;
 }
 
 .content{
     display: flex;
-    justify-content: space-around;
-    margin-left: 40vh;
-    
+    justify-content:space-around
 }
 
 .contac2{
@@ -337,8 +351,10 @@ div > meter{
     color: black;
     text-align: center;
     height: 220px;
-    width: 48vh; 
+    width:35vh; 
     border-radius: 5px; 
+    padding-left: 5vh;
+    padding-right: 5vh;
 }
 
 .img-c{
