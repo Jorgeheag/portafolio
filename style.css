@@ -188,7 +188,7 @@ nav > ul > li > a:hover{
 .servicios{
     display: flex;
     justify-content:space-around;
-    margin-left: 13vh;
+    margin-left: 34vh;
 }
 .desing{
     background-image: url(Ellipse\ 14.svg);
@@ -336,6 +336,7 @@ div > meter{
     gap: 10px;
     flex-wrap: wrap-reverse;
     justify-content: center;
+    
 }
 
 .content{
@@ -360,6 +361,7 @@ div > meter{
 .img-c{
     width: 13vh;
     height: 13vh;
+    margin-top: 2vh
 }
 
 .final{
