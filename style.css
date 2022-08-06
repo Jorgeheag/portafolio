@@ -386,9 +386,9 @@ div > meter{
     .tigre{
         position: absolute;
         background-color: rgba(143 150 150 / 37%);;
-        padding:4rem;
+        padding:4.5rem;
         border-radius: 30vh;
-        left: 20vh;
+        left: 23vh;
     }
     .tigre img{
       width: 20rem;
@@ -446,10 +446,8 @@ div > meter{
     }
     .servicios{
 
-        display: flex;
-        justify-content: space-around;
-        margin-left: 0;
-        padding: 41px;
+        
+        
     }
 
     nav{
@@ -588,13 +586,18 @@ div > meter{
     }
     
     .infoP{
+        padding: 2vh;
         text-align: center;
-        bottom: unset;
+        margin-left: 4vh;
+       
     }
     
     .serv{
         text-align: center;
         bottom: unset;
+        padding: 2vh;
+        text-align: center;
+        margin-left: 7vh;
     }
 
     .sec-flex{
@@ -603,10 +606,12 @@ div > meter{
     }
     
     .servicios{
-        justify-content: space-around;
+        justify-content: space-between;
         margin-left: -2px;
-        position: static;
-        display: flex;
+        display: flexbox;
+        margin-right: -7vh;
+        padding: 2vh;
+
     }
     
     .desing{
@@ -828,11 +833,11 @@ nav > ul > li > a:hover{
 }
 
 .icono-menu img{
-   padding: 10px;
+   padding: 2px;
     vertical-align: top;
-    width: 30px;
+    width: 47px;
     cursor: pointer;
-    background-color: rgb(52, 176, 190);
+    background-color: rgb(249, 249, 249);
     border-radius: 20px;
     
 }
@@ -917,7 +922,7 @@ width: 300px;
 }
 
 .section-s1{
-    margin-left: 0;
+    margin-left: -10vh;
     position: relative;
     left: -120%;
     padding-left: 4%;
@@ -929,14 +934,22 @@ width: 300px;
     /* background-color: rgba(143 150 150 / 37%); */
     padding: 4rem;
     border-radius: 30vh;
-    left: 20vh;
+    left: 23vh;
 }
+
+.acer-1 {
+    padding: 0vh;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    margin-right: -6vh;
+
 }
 
 
 
 
-
+}
 
             
 
