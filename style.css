@@ -367,6 +367,7 @@ div > meter{
     text-align: center;
     justify-content: center;
     color: aqua;
+    
 }
 
 .foot{
@@ -444,14 +445,10 @@ div > meter{
         width: 15vh;
     
     }
-    .servicios{
-
-        
-        
-    }
+    
 
     nav{
-        z-index: 9;
+        
         display: flex;
         background-color: rgb(0, 0, 17);
         overflow: hidden;
@@ -462,7 +459,7 @@ div > meter{
         top: 0;
         flex-direction: row-reverse;
         padding-bottom: 1rem;
-        z-index: 19;
+        
     }
     
     nav > ul > li{
@@ -706,15 +703,18 @@ div > meter{
         text-align: center;
         justify-content: center;
         color: aqua;
+        width: 100%;
+        margin: 0;
     }
     
     .foot{
+        margin-right: 1;
         margin-top: 15vh;
         background-color:rgba(140, 141, 141, 0.219140);
-        height: 10vh;
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
 }
 
@@ -879,18 +879,19 @@ nav > ul > li > a:hover{
     background-color: rgb(52, 176, 190);
     color: rgb(0, 0, 0);
 }
-nav{z-index: 9;
+nav{
     display: flex;
     background-color: rgb(0, 0, 17);
     overflow: hidden;
     position: fixed;
-    width: 90%;
+    
     left: 0;
     right: 0;
     top: 0;
     flex-direction: row-reverse;
     padding-bottom: 1rem;
-    z-index: 19;
+    margin-right: 2vh;
+    
 }
 .section-s2{
 display: none;
