@@ -380,6 +380,13 @@ div > meter{
 }
 
 @media screen and (max-width: 600px) {
+    * {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
     body{
         background-color: rgb(16, 6, 110);
         
@@ -705,16 +712,17 @@ div > meter{
         color: aqua;
         width: 100%;
         margin: 0;
+        box-sizing: initial;
     }
     
     .foot{
-        margin-right: 1;
+        margin-right: none;
         margin-top: 15vh;
         background-color:rgba(140, 141, 141, 0.219140);
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        
     }
 }
 
