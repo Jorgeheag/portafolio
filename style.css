@@ -267,18 +267,20 @@ div > meter{
     align-items: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px ) {
 
     *{
         justify-content: center;
         width: 100%;
         margin: 0;
         padding: 0;
+        
     }
     
     body{
         display: block;
         background-color: rgb(16, 6, 110);
+
     } 
 
     .presentacion{
@@ -572,22 +574,6 @@ div > meter{
         align-items: center;
     }
 
-
-    nav{
-       z-index: 9;
-       display: flex;
-       background-color: rgb(0, 0, 17);
-       overflow: hidden;
-       position: fixed;
-       width: 100%;
-       left: 0;
-       right: 0;
-       top: 0;
-       flex-direction: row-reverse;
-        padding-bottom: 1rem;
-    }
-
-
     nav > ul > li{
     
        display: inline-block;
@@ -648,12 +634,12 @@ div > meter{
        z-index: 6;
     }
 
-/* Estilos por agregar en JavaScript */
+    /* Estilos por agregar en JavaScript */
     .active{
        transform: translate(-600px);
     }
 
-/* Estilos para el listado del Menú */
+    /* Estilos para el listado del Menú */
     .cont-menu ul{
       padding: 100px 0px 20px 0px;
       list-style: none;
@@ -671,17 +657,6 @@ div > meter{
     .cont-menu ul li a:hover{
        background-color: rgb(52, 176, 190);
        color: rgb(0, 0, 0);
-    }
-
-    nav{
-      display: flex;
-      background-color: rgb(0, 0, 17);
-      overflow: hidden;
-      left: 0;
-      right: 0;
-      top: 0;
-      flex-direction: row-reverse;
-      padding-bottom: 1rem;
     }
   
     .contac2{
