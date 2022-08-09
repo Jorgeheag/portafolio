@@ -13,82 +13,30 @@ body {
     color: rgba(252, 251, 251, 0.953); 
 }
 
-/*nav{
-    width: auto;
-    height: 3rem;
-    margin: 0%;
-    display: flex;
-    flex-direction: row-reverse;
-    padding-bottom: 1rem;
-}
-
-nav > ul > li{
-    display: inline-block;
-    font-size: 2vh;
-}
-nav > ul > li > a{
-    text-decoration: none;
-    font-family: sans-serif;
-    color: white;
-    padding: 1rem;
-    border-bottom: 4px solid transparent;
-}
-nav > ul > li > a:hover{
-
-    border-color: aqua;
-    transition: all .5s linear;
-
-}
-.home{
-    font-weight: bold;
-    color: rgb(52, 176, 190);
-}*/
-
-/**.navegador-inicio{
-    
-    width: auto;
-    height: 3rem;
-    margin: 0%;
-    display: flex;
-    justify-content:flex-end;
-    display:n ;
-}
-
-.navegador-botones{
-    margin: 3vh;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    
-}
-
 .navegador-botones:hover{
     color: aqua;
     
 }
 
-*/
+
 
 .section-s1{
     z-index: 2;
-    font-size: 20px;
-    padding-left: 7%;    
-    position: absolute; 
-    margin-left: -300px;
+    font-size: 20px; 
+    display: flex;  
+    justify-content: space-between; 
+
 }
 
-.section-s2{
-    z-index: 2;
-    margin-top: 5vh;
-    padding-right: 7%;  
-    font-size: xx-large;
-    margin-left: 30vh;  
-    position: absolute; 
-    margin-left: 400px;
-   
-}
+
 .section-s1> h3 {
     font-size: 8rem;
     
+}
+
+.prj{
+    margin: 0 2vh ;
+
 }
 
 #prt-sp{
@@ -100,11 +48,11 @@ nav > ul > li > a:hover{
     display: flex;
     padding: 3px;
     padding-bottom: 8rem;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .presentacion2{
-    display: flex;
+    margin: 0 2vh;
 }
 
 .tigre{
@@ -380,17 +328,33 @@ div > meter{
 }
 
 @media screen and (max-width: 600px) {
-    * {
+
+    *{
         width: 100%;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
-
+    
+    
     body{
         background-color: rgb(16, 6, 110);
+        width: 100%;
         
     } 
+
+    .presentacion{
+        display: flex;
+        padding: 3px;
+        padding-bottom: 3rem;
+        justify-content: space-around;
+        padding-top: 8vh;
+
+    }
+    
+    .presentacion2{
+        margin: 0 2vh;
+    }
     .tigre{
         position: absolute;
         background-color: rgba(143 150 150 / 37%);;
@@ -406,19 +370,14 @@ div > meter{
 
     
     .section-s1{
-        z-index: 2;
-        font-size: 20px;
-       
+        
+      z-index: 2;
+      font-size: 20px; 
+      display: flex;  
+      justify-content: space-between;
         
     }
     
-    .section-s2{
-        z-index: 2;
-        margin-top: 5vh;
-        padding-right: 7%;  
-        font-size: 3vh;
-       
-    }
     
     .section-s1> h3 {
         font-size: 8rem;
@@ -514,16 +473,7 @@ div > meter{
     }
     */
    
-    
-    .section-s1{
-        margin-left: -20%;
-        position: relative;
-        left: 20%;
-        padding-left: 4%;
-        
-    
-    }
-    
+
    
     
     .section-s1> h3 {
@@ -544,8 +494,9 @@ div > meter{
     border-radius: 31vh;
     justify-content: center;
         
-    
     }
+
+    
     
     .redesSociales{
         display: flex;
@@ -601,7 +552,7 @@ div > meter{
         bottom: unset;
         padding: 2vh;
         text-align: center;
-        margin-left: 7vh;
+        margin-left: .vh;
     }
 
     .sec-flex{
@@ -706,7 +657,7 @@ div > meter{
     }
     
     .final{
-        
+        display: block;
         text-align: center;
         justify-content: center;
         color: aqua;
@@ -716,7 +667,7 @@ div > meter{
     }
     
     .foot{
-        margin-right: none;
+        margin-right: 2vh;
         margin-top: 15vh;
         background-color:rgba(140, 141, 141, 0.219140);
         display: flex;
@@ -730,48 +681,8 @@ div > meter{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-nav{z-index: 9;
+nav{
+    z-index: 9;
     display: flex;
     background-color: rgb(0, 0, 17);
     overflow: hidden;
@@ -815,32 +726,18 @@ nav > ul > li > a:hover{
 
 
 
-
-
-
-
-
-
-
-@media screen and (min-width: 600px){
-    .hidden{
-        display: none;
-    }}
-
-
-
 @media screen and (max-width: 600px){
     .hidden2{
         display: none;
     }
 
-.icono-menu{
+ .icono-menu{
     margin: 4px 5px;
     position: relative;
     z-index: 10;
 }
 
-.icono-menu img{
+ .icono-menu img{
    padding: 2px;
     vertical-align: top;
     width: 47px;
@@ -848,10 +745,10 @@ nav > ul > li > a:hover{
     background-color: rgb(249, 249, 249);
     border-radius: 20px;
     
-}
+ }
 
 /* Estilos para el contenedor del Menú */
-.cont-menu{
+ .cont-menu{
     background-color: rgb(0, 0, 17);
     box-shadow: 2px 0px 5px 2px rgb(66,66,66);
     width: 300px;
@@ -861,99 +758,80 @@ nav > ul > li > a:hover{
     left: 0;
     transition: all .5s ease;
     z-index: 6;
-}
+ }
 
 /* Estilos por agregar en JavaScript */
-.active{
+  .active{
     transform: translate(-600px);
-}
+ }
 
 /* Estilos para el listado del Menú */
-.cont-menu ul{
+ .cont-menu ul{
     padding: 100px 0px 20px 0px;
     list-style: none;
-}
+ }
 
-.cont-menu ul li a{
+ .cont-menu ul li a{
     color: white;
     display: block;
     font-size: 25px;
     text-decoration: none;
     padding: 10px 50px;
     cursor: pointer;
-}
+ }
 
-.cont-menu ul li a:hover{
+  .cont-menu ul li a:hover{
     background-color: rgb(52, 176, 190);
     color: rgb(0, 0, 0);
-}
-nav{
+ }
+ nav{
     display: flex;
     background-color: rgb(0, 0, 17);
     overflow: hidden;
-    position: fixed;
-    
     left: 0;
     right: 0;
     top: 0;
     flex-direction: row-reverse;
     padding-bottom: 1rem;
-    margin-right: 2vh;
-    
-}
-.section-s2{
-display: none;
-}
+      
+ }
+  
 
-.contac2{
+ .contac2{
    width: 200px;
    padding: 0vh;
-}
+ }
 
-.content{
+ .content{
     margin: 0;
     width: 500px;
     text-align: center;
-}
+ }
 
-.content {
+ .content {
     margin: 0;
     width: 500px;
     text-align: center;
-}
+ }
 
-#cont{
+ #cont{
  text-align: justify;
-}
+ }
 
-.portaf img{
-width: 300px;
-}
+ .portaf img{
+   width: 300px;
+ }
 
-.section-s1{
-    margin-left: -10vh;
-    position: relative;
-    left: -120%;
-    padding-left: 4%;
-    top: 5vh;
-    
-}
-.tigre {
-    position: absolute;
-    /* background-color: rgba(143 150 150 / 37%); */
-    padding: 4rem;
-    border-radius: 30vh;
-    left: 23vh;
-}
-
-.acer-1 {
+ 
+ 
+ .acer-1 {
     padding: 0vh;
     justify-content: center;
     font-size: 30px;
     text-align: center;
     margin-right: -6vh;
 
-}
+ }
 
 
 
