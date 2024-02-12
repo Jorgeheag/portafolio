@@ -16,3 +16,24 @@ iconoMenu.addEventListener("click", (e) => {
   }
 });
 
+
+
+
+
+
+function convertirACamelCase(cadena) {
+  // dividimos la cadena por los guiones
+  let palabras = cadena.split('-');
+  
+  // convertimos la primera palabra a minúsculas
+  let primeraPalabra = palabras[0].toLowerCase();
+  
+  // convertimos las demás palabras a camelCase
+  for (let i = 1; i < palabras.length; i++) {
+    let primeraLetra = palabras[i][0].toUpperCase();
+    let restoPalabra = palabras[i].slice(1).toLowerCase();
+    primeraPalabra += primeraLetra + restoPalabra;
+  }
+  
+  return primeraPalabra;
+}
